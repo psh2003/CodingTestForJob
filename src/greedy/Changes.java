@@ -1,5 +1,8 @@
 package greedy;
 
+/**
+ * 거스름돈
+ */
 public class Changes {
     public static void main(String[] args) {
         int[] coinTypes = {500,100,50,10};
