@@ -21,7 +21,7 @@ public class BigNumberRule {
         int second = Integer.parseInt(arr2[n - 2]);
         int sum = 0;
         for (int i = 1; i <= m; i++) {
-            sum += i % k == 0 ? second : first;
+            sum += i % (k + 1) == 0 ? second : first;
         }
         System.out.println(sum);
     }
