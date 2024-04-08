@@ -10,7 +10,7 @@ import java.util.List;
 public class Ex1 {
     public static void main(String[] args) {
         ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
-        int[][] a = {{2, 3, 8}, {1, 7}, {1, 4, 5}, {3, 5}, {3, 4}, {7}, {2, 6, 8}, {1, 7}};
+        int[][] a = {{}, {2, 3, 8}, {1, 7}, {1, 4, 5}, {3, 5}, {3, 4}, {7}, {2, 6, 8}, {1, 7}};
         boolean[] visited = new boolean[1000];
         for (int[] n : a) {
             ArrayList<Integer> temp = new ArrayList<>();
